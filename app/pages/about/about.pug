@@ -1,0 +1,8 @@
+ion-header
+  ion-navbar
+    ion-title About
+
+ion-content(padding class="about")
+  h1 Hey, how are you?
+  button([navPush]="contactPage") Contact Us
+  button((click)="presentAlert()") Show Alert
